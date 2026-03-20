@@ -1,3 +1,10 @@
 .App {
-  border: 1px solid greenyellow;
+  background-color: #729ab6;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding-top: 30px;
 }

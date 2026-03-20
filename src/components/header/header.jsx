@@ -1,7 +1,6 @@
-import React, { useState } from "react";
 import "./header.css";
 
-const Header = () => {
+const Header = ({ score, bestScore }) => {
   return (
     <div className="headerContainer">
       <div className="leftHeader">
@@ -11,7 +10,10 @@ const Header = () => {
           once!
         </p>
       </div>
-      <div className="rightHeader"></div>
+      <div className="rightHeader">
+        <p className="score">Score: {score} </p>
+        <p className="bestScore">Best score: {bestScore}</p>
+      </div>
     </div>
   );
 };

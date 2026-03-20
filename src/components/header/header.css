@@ -1,4 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Pacifico&display=swap");
+* {
+  margin: 0;
+}
 .headerContainer {
-  height: 15vh;
-  background-color: antiquewhite;
+  height: 20vh;
+  font-family: "Pacifico", cursive;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.headerTitle {
+  font-size: 5.5vh;
+}
+
+.headerDescription {
+  font-size: 3.5vh;
+  font-weight: 200;
+  padding-top: 15px;
+}
+.rightHeader {
+  width: 120px;
+  padding-right: 5vw;
+  font-size: 2.6vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
