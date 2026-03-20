@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# 🐶 Dog Memory Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive memory game built with React, where the goal is simple — remember which cards you've already clicked. Sounds easy? Think again 😄
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎮 Gameplay
 
-### `npm start`
+Test your memory by clicking on unique cards:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🟢 Each correct click increases your score
+- ❌ Clicking the same card twice resets the game
+- 🔀 Cards shuffle after every move
+- 🏆 Try to beat your best score
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🧠 Memory-based game logic
+- 🔀 Randomized card positions after each click
+- 📊 Live score tracking
+- 🏆 Persistent best score system
+- ♻️ Automatic game reset on mistake
+- 🐶 Animated GIF cards for fun experience
+- ⚡ Fast and responsive UI
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ⚛️ React (Functional Components + Hooks)
+- 🧠 useState for state management
+- 🎨 CSS for styling
+- 📦 JavaScript (ES6+)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+📸 Demo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="1271" height="792" alt="image" src="https://github.com/user-attachments/assets/9d7c2215-1a8d-4bdb-b4e2-174331c12f0f" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**🌟 Future Improvements**
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🎉 Win screen when all cards are guessed correctly  
+💀 Game over modal  
+✨ Card flip animations  
+📱 Mobile optimization  
+🔊 Sound effects  
